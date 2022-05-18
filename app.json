@@ -1,0 +1,30 @@
+﻿{
+  "name": "项目名称",
+  "description": "项目名称",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/用户名/项目名称",
+  "repository": "https://github.com/zxdyx1234/hiteggss",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
